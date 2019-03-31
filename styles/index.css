@@ -1,0 +1,43 @@
+body {
+  background-color: orange;
+  margin: 30px;
+}
+
+span {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.subtitle {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.infoRow {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.infoText {
+  margin: 2px 10px;
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 25px;
+}
